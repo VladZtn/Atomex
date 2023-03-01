@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+/* font-family: 'Nunito', sans-serif;
+font-family: 'Tilt Neon', cursive; */
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 800px;
+  background-color: #3665AC;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 45px;
+  gap: 20px;
+  margin-top: -258px;
+}
+
+.menu h1{
+  color: #fff;
+  font-family: 'Tilt Neon', cursive;
+  font-size: 40px;
+}
+
+.menu ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.menu ul li{
+  list-style: none;
+}
+
+.menu ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.menu button{
+  width: 40px;
+  height: 22px;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  height: 355px;
+  margin-top: 150px;
+}
+
+.apps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 600px;
+  gap: 20px;
+}
+
+.apps h1 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.static {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.static img{
+  width: 20px;
+  height: 20px;
+}
+
+.button-first-row, .button-second-row{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  height: 40px;
+}
+
+
+.apps button{
+  height: 50px;
+  width: 135px;
+  background-color: #212529;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.service_block{
+  height: 359px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+.exchanges_block, .safety_block, .instant_block {
+  width: 360px;
+  height: 275px;
+  background: #FFFFFF;
+  box-shadow: 0px 10px 30px rgba(33, 37, 41, 0.12);
+  border-radius: 7px;
+}
+
+.service_block img{
+  width: 91.68px;
+  height: 91.68px;
+  margin-top: 8px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 94px;
+}
+
+.logo h1{
+  position: relative;
+  margin-left: 40px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.exchanges_block p{
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.exchanges_block button{
+  height: 22px;
+  width: 150px;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0);
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 700;
+  color: #004188;
+}
+
+.exchanges_block p ,.exchanges_block button{
+  margin-left: 20px;
+}
+
+.crypto-fiat{
+  width: 1120px;
+  height: 360px;
+}
